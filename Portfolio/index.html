@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noorshama Ansari's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Noorshama Ansari</h1><br>
+            <p>Polyglot Developer</p><br>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container about-content">
+            <h2>About Me</h2>
+            <img src="myphoto.jpg" alt="Noorshama Ansari">
+            <p style="color: #ffffff">
+                Hello! I'm <strong>Noorshama Ansari</strong>, passionate about exploring technology.
+                Proficient in <strong>Java, JavaScript, C, C++, Python, HTML, CSS</strong> and experienced in <strong>DBMS, RDBMS, PLSQL, and ReactJS</strong>.
+                Eager to embrace new challenges, I thrive on learning and adapting to new technologies. 
+                Excited about IT's dynamic world and committed to continuous improvement. 
+                Also, I co-founded <strong>Woodsy Vogue</strong>, a startup revolutionizing sustainable fashion.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>React</li>
+                <li>Node.js</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Tic Tac Toe Game</h3>
+                <p>A classic Tic Tac Toe game implemented in JavaScript, 
+                HTML, and CSS. This project features a two-player mode 
+                where users can compete against each other in a grid-based game. 
+                It includes functionality for marking Xs and Os, detecting win 
+                conditions, and resetting the game. The game’s responsive design 
+                ensures a smooth and engaging experience across different devices.
+                This project highlights my skills in interactive game development and 
+                front-end design</p>
+                <a href="https://github.com/Noorshamaansari03/PRODIGY_WD_03.git" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Stopwatch Project</h3>
+                <p>A simple and intuitive stopwatch application that allows users to measure elapsed
+                    time with precision. 
+                    Features include start, stop, and reset functionality,
+                    along with lap recording to track multiple intervals.
+                    Designed with a clean and user-friendly interface, 
+                    this project showcases my ability to implement fundamental 
+                    timing and user interaction functionalities using JavaScript, 
+                    HTML, and CSS.</p>
+                <a href="https://github.com/Noorshamaansari03/PRODIGY_WD_02.git" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Caesar Cipher</h3>
+                <p>A simple encryption tool that implements the Caesar Cipher algorithm, shifting characters by a fixed number of positions in the alphabet. This project demonstrates basic cryptographic techniques and string manipulation using JavaScript. It allows users to encrypt and decrypt messages with a specified shift value, showcasing an understanding of classical encryption methods and fundamental programming concepts.</p>
+                <a href="https://github.com/Noorshamaansari03/SCT_CS_01.git" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Password Generator</h3>
+                <p>A robust password generator tool designed to create secure, random passwords with customizable length and complexity. It allows users to specify criteria such as including uppercase letters, lowercase letters, numbers, and special characters. The project showcases the implementation of randomization techniques and user input handling in JavaScript, providing a reliable solution for generating strong and secure passwords to enhance online security.</p>
+                <a href="https://github.com/Noorshamaansari03/SCT_CS_03.git" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Image Encryption</h3>
+                <p>A project that implements image encryption techniques to secure visual data using cryptographic algorithms. This application converts images into encrypted formats, protecting them from unauthorized access. Features include encoding and decoding images with a secure key, ensuring data confidentiality and integrity. The project demonstrates proficiency in image processing, cryptography, and secure data handling.</p>
+                <a href="https://github.com/Noorshamaansari03/SCI_SC_02.git" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Keylogger</h3>
+                <p>A keylogger application designed to capture and record keystrokes from a user's keyboard. This project demonstrates the ability to monitor and log user input, showcasing advanced programming techniques for handling keyboard events and data storage. It emphasizes understanding user input tracking and data privacy considerations, while being a practical example of event-driven programming.</p>
+                <a href="https://github.com/Noorshamaansari03/SCT_CS_04.git" target="_blank">View Project</a>
+            </div>
+           
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Noorshama Ansari. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
